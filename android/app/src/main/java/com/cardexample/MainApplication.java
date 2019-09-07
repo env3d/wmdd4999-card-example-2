@@ -1,4 +1,4 @@
-package com.cardexample2;
+package com.cardexample;
 
 import android.app.Application;
 import android.util.Log;

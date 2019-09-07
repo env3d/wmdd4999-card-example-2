@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'cardExample2' do
-  # Pods for cardExample2
+target 'CardExample' do
+  # Pods for CardExample
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -27,7 +27,7 @@ target 'cardExample2' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'cardExample2Tests' do
+  target 'CardExampleTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -35,10 +35,10 @@ target 'cardExample2' do
   use_native_modules!
 end
 
-target 'cardExample2-tvOS' do
-  # Pods for cardExample2-tvOS
+target 'CardExample-tvOS' do
+  # Pods for CardExample-tvOS
 
-  target 'cardExample2-tvOSTests' do
+  target 'CardExample-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

@@ -1,4 +1,4 @@
-package com.cardexample2;
+package com.cardexample;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "cardExample2";
+        return "CardExample";
     }
 }
