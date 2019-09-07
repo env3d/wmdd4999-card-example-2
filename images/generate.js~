@@ -1,0 +1,16 @@
+const SUITS = [ "spades", "hearts", "clubs", "diamonds" ];
+const VALUES = [
+  "ace", "two", "three", "four",
+  "five", "six", "seven", "eight",
+  "nine", "ten", "jack", "queen", "king"
+];
+
+cards = [];
+
+SUITS.forEach( suit => {
+  VALUES.forEach( val => {
+    cards.push(`${suit}_of_${val}.png`);
+  })
+});
+
+console.log(cards);
